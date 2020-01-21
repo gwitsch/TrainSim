@@ -1,0 +1,10 @@
+This project can be imported in Eclipse.
+
+It does use project lombok and therefore requires lombok to be installed in eclipse.
+	https://projectlombok.org/
+
+It can be build with gradle by running this command in the project directory:
+	gradlew jar
+
+For running test and test coverage, issue the command:
+	gradlew test jacocoTestReport
